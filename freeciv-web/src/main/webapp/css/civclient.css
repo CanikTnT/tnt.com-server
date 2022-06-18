@@ -122,7 +122,7 @@ table.terrain_chart td {
   border: 1px solid #555555;
   color: #d0c8c0;
   background-color: rgba(0, 0, 0, 0.7);
-  font-family: Consolas;
+  font-family: "Consolas", monospace;
 }
 
 #overview_map {
@@ -264,11 +264,11 @@ input[type='number'] {
   font-size: 95%;
   line-height: 110%;
   margin-top: -2px;
-  font-family: Segoe;
+  font-family: "Segoe UI", sans-serif;
 }
 .helptext_pane {
   max-width: 784px;
-  font-family: Segoe;
+  font-family: "Segoe UI", sans-serif;
   color: #e2e2e2;
 }
 .helptext_pane_mobile {
@@ -278,7 +278,8 @@ input[type='number'] {
   color: #9aa;
   line-height:115%;
   font-size:115%;
-  font-family:SegoeSB
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bolder;
 }
 
 .blue_clickable {
@@ -577,7 +578,7 @@ input[type='number'] {
   margin-left: 0px; 
   background: url("/images/bg-dark.jpg") repeat scroll 0 0 ; 
   color: rgb(226, 226, 226);
-  font-family: Segoe;
+  font-family: "Segoe UI", sans-serif;
 }
 
 #tech_goal_box {
@@ -1100,7 +1101,8 @@ table.vet_level tr:nth-child(9) td {
   width: 100%;
   border-spacing: 0px;
   border-collapse: separate;
-  font-family: SegoeSB;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bolder;
   text-shadow: 1px 1px #5554;
   background-image: url(/images/bg-med-light.jpg);
 }
@@ -1818,7 +1820,7 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
 
 .ui-dialog:not(#game_message_area, #game_chatbox_panel) {
   color: var(--default_text_color);
-  font-family:Segoe;
+  font-family: "Segoe UI", sans-serif;
   background: url('/images/bg.jpg');
   border: #432 !important;
 }
@@ -1839,7 +1841,7 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
   box-shadow: 5px 5px 15px #000a, -.01em 0 .27em #ccc5 !important; */
   box-shadow: 6px 6px 23px #000b !important;
   text-shadow: 1px 1px #33222241 !important;
-  font-family: Segoe !important;
+  font-family: "Segoe UI", sans-serif !important;
   line-height: 16px;
 }
 body div.ui-tooltip {
@@ -2077,14 +2079,13 @@ input[type="email" i], #email {
 /**************************************************************************************************/
 #game_message_area {
   padding-top: 12px;
-  padding-left: 0px;
+  padding-left: 0;
   padding-right: 4px;
   box-sizing: border-box;
   border: 1px solid #111111;
   color: rgb(247, 241, 241);
   list-style-type: none;
-  margin: 0px;
- /* font-family: Consolas; */
+  margin: 0;
 }
 
 #selectable li {
@@ -2379,31 +2380,33 @@ input[type="email" i], #email {
 /* Font Control over various game elements 
 *******************************************************************/
 #pregame_message_area {
-  font-family: SegoeSB;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bolder;
   line-height:115%;
   font-size:115%;
   color:rgb(218, 218, 218) !important;
 }
 /* override everything in pregame to black */
 #pregame_message_area .e_setting {
-  font-family: ConsolasBold;
+  font-family: "Consolas", monospace;
+  font-weight: bold;
   line-height:90%;
   font-size:90%;
   color: inherit !important;
 }
 #pregame_message_area .e_connection {
-  font-family: ConsolasBold;
+  font-family: "Consolas", monospace;
+  font-weight: bold;
   line-height:90%;
   font-size:90%;
   color: inherit !important;
 }
 #private_message_text,
 #pregame_text_input {
-  font-family: Consolas;
+  font-family: "Consolas", monospace;
 }
 /* info on terrain, gov, wonders, buildings */
 #helptext_pane {
-  /*font-family: Arial;*/
   line-height: 115%;
   font-size: 115%;
 }
@@ -2448,7 +2451,7 @@ input[type="email" i], #email {
   background: url("/images/bg-med-dark.jpg") repeat scroll 0 0 #222222; */
   padding-right: 30px;
   margin-top: 20px;
-  font-family: Segoe;
+  font-family: "Segoe UI", sans-serif;
   color: var(--default_text_color);
 }
 #city_right_panel {
@@ -2535,20 +2538,6 @@ input[type="email" i], #email {
   background-image: url('/images/slider_prod.png'); /* default grey */
 }
 
-/* Font faces */
-@font-face {
-  font-family: ConsolasBold;
-  src: url('/fonts/consolab.ttf');
-}
-@font-face {
-  font-family: Consolas;
-  src: url('/fonts/consola.ttf');
-}
-
-@font-face {
-  font-family: Helvetica;
-  src: url('/fonts/arial.ttf');
-}
 @font-face {
   font-family: Freeciv;
   src: url('/fonts/freeciv.ttf');
@@ -2565,28 +2554,8 @@ input[type="email" i], #email {
   font-family: FreecivBlack;
   src: url('/fonts/freeciv.bl.ttf');
 }
-@font-face {
-  font-family: Arial;
-  src: url('/fonts/arial.ttf');
-}
-@font-face {
-  font-family: SegoeSB; /* semi-bold */
-  src: url('/fonts/seg.sb.ttf');
-}
-@font-face {
-  font-family: SegoeBold;
-  src: url('/fonts/seg.b.ttf');
-}
-@font-face {
-  font-family: SegoeBlack;
-  src: url('/fonts/seg.bl.ttf');
-}
-@font-face {
-  font-family: Segoe;
-  src: url('/fonts/seg.ttf');
-}
 body {
-  font-family: Arial;
+  font-family: "Arial", sans-serif;
   border: none;
   outline: none;
   scrollbar-width: thin !important;
