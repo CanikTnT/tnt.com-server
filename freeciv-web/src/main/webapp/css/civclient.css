@@ -9,7 +9,7 @@
 
 body
 {
-  margin: 0px;
+  margin: 0;
   background: #000000;
   overflow: hidden;
   width: 100%;
@@ -30,7 +30,7 @@ body, html, div {
   background: #4d4632;
 /*	-webkit-border-radius:4px; */
   -webkit-border-radius: 1ex;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
 }
 ::-webkit-scrollbar-thumb:hover{
 	background-color:#42411a;
@@ -53,8 +53,8 @@ button {
 .ui-tabs .ui-tabs-panel {
   border-width:0;
   display:block;
-  padding:0px;
-  margin-right:0px;
+  padding:0;
+  margin-right:0;
   color: var(--default_text_color);
   font-family: Freeciv;
 }
@@ -97,10 +97,7 @@ button {
 }
 table.terrain_chart td {
   border: 1px solid #454d4c;
-  padding-left: 18px;
-  padding-right: 18px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 18px;
 }
 /******************************************************************/
 
@@ -118,7 +115,7 @@ table.terrain_chart td {
   flex: 1 1 auto;
   height: 18px;
   min-width: 0;
-  margin: 0 0em;
+  margin: 0 0;
   border: 1px solid #555555;
   color: #d0c8c0;
   background-color: rgba(0, 0, 0, 0.7);
@@ -203,14 +200,14 @@ table.terrain_chart td {
 
 #turn_done_button {
   float: left;
-  margin-top: 0px;
+  margin-top: 0;
   padding:7px;
   border-color: #000 !important;
 }
 
 .main_menu_buttons {
   padding: 1px;
-  margin: 0px;
+  margin: 0;
 }
 
 #freeciv_manual {  
@@ -251,7 +248,7 @@ input[type='number'] {
 /*warcalc bonus adjusters, small empire tab buttons*/
 .tiny_button {
   padding: 2px;
-  margin: 0px;
+  margin: 0;
   border-radius: 3px 3px 3px 3px;
   font-size:85%;
   background: #444;
@@ -318,48 +315,48 @@ input[type='number'] {
 .hint_of_green {
   color: #a6f4a6;
   text-align: right;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
   margin-right: -2px;
 }
 .hint_of_blue {
   color: #d6d6f1;
   text-align: right;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
   margin-right: -2px;
 }
 .hint_of_orange {
   color: #ffecc7;
   text-align: right;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
   margin-right: -2px;
 }
 .negative_text {
   color: #d65b52;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
   margin-right: -2px;
 }
 /* reddish because won't produce, but has to differentiate from NOT coming out of disorder next turn */
 .restored_anarchy_text {
   color: #d6a852;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
   margin-right: -2px;
 }
 .food_text {
   color: #9bff7d; /* adjust city.js city_surplus_color to match */
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 /* food shield trade: tile output styling for tile info window */
@@ -415,7 +412,6 @@ input[type='number'] {
   color: #000;
   border-style: hidden solid hidden solid !important;
   padding-right: 3px !important;
-  border-style: solid solid solid solid;
 }
 /***************************************************** </end KILL_ME> */
 
@@ -424,50 +420,50 @@ input[type='number'] {
 }
 .negative_food_text {
   color: #c55c55; /* adjust city.js city_surplus_color to match */
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 3em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 .prod_text {
   color: #ffffff;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 .trade_text {
   color: #fdff7d;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 .gold_text {
   color: #ffd52c; 
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 .lux_text {
   color: #e2c5ee;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 .sci_text {
   color: #98fff3;
-  padding-top: 0 px;
-  padding-right: 0 px;
+  padding-top: 0;
+  padding-right: 0;
   max-width: 2em;
-  margin-right: 0px;
+  margin-right: 0;
   text-shadow: 2px 1px #000;
 }
 /* city stats panel, main city dialog (city.js)*/
@@ -515,7 +511,7 @@ input[type='number'] {
 /* numbers align digits in ISO accounting format */
 .number_element {
   text-align: right;
-  padding-left: 0em;
+  padding-left: 0;
   color: #beb38f;
 }
 
@@ -551,7 +547,6 @@ input[type='number'] {
   border: 1px #432 solid;
   max-height: 100%;
   overflow: auto;
-  border-color: #432;
 }
 
 #dialog {
@@ -573,9 +568,8 @@ input[type='number'] {
   border: 1px solid rgb(153, 153, 153); 
   width: 100%;
   min-height: 40px; 
-  padding: 4px; 
-  margin: 2px; 
-  margin-left: 0px; 
+  padding: 4px;
+  margin: 2px 2px 2px 0;
   background: url("/images/bg-dark.jpg") repeat scroll 0 0 ; 
   color: rgb(226, 226, 226);
   font-family: "Segoe UI", sans-serif;
@@ -745,8 +739,8 @@ input[type='number'] {
 
 #tabs {
   background-image: url("/images/bg-dark.jpg");
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   border: none;
   outline: none;
 }
@@ -821,7 +815,7 @@ input[type='number'] {
 
 /* makes a button appear as a tab */
 .tab_emulator_button {
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 8px 8px 0 0;
   margin-right: -5px;
 }
 
@@ -1002,26 +996,24 @@ input[type='number'] {
 
 /* tech report table */
 .tech_report {
-  margin:0px;
-  padding:0px;
-  border-spacing:0px;
+  margin:0;
+  padding:0;
+  border-spacing:0;
 }
 .tech_report td {
   text-align: center;
   height: 48px;
   border: 1px solid #ffc3;
-  margin: 0px;
+  margin: 0;
   background-color: #0004;
-  padding: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
 }
 .nopad {
-  padding: 0px 0px 0px 0px !important;
+  padding: 0 !important;
 }
 /* vet level charts in online manual */
 .vet_level {
-  border-spacing: 12px 0px;
+  border-spacing: 12px 0;
 }
 table.vet_level td {
   text-align: center;
@@ -1099,7 +1091,7 @@ table.vet_level tr:nth-child(9) td {
 
 .worklist_table {
   width: 100%;
-  border-spacing: 0px;
+  border-spacing: 0;
   border-collapse: separate;
   font-family: "Segoe UI", sans-serif;
   font-weight: bolder;
@@ -1110,7 +1102,7 @@ table.vet_level tr:nth-child(9) td {
   width: 100%;
   height: 60px;
   font-size: 120%;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   background-color: rgba(40,40,40,0.2);
 }
 
@@ -1137,7 +1129,7 @@ table.vet_level tr:nth-child(9) td {
 .overview_dialog .ui-dialog-titlebar, .unit_dialog .ui-dialog-titlebar, .chatbox_dialog .ui-dialog-titlebar  {
   padding-bottom: 1px;
   padding-left: 4px;
-  padding-top: 0px;
+  padding-top: 0;
   font-size: 11px;
   margin-top: -5px;
   height: 15px;
@@ -1149,8 +1141,7 @@ table.vet_level tr:nth-child(9) td {
   border-radius: 7px 7px 3px 3px;
 }
 #game_overview_panel {
-  padding: 0px;
-  padding-bottom: 2px;
+  padding: 0 0 2px;
   margin-bottom: -5px;
   overflow: hidden;
 }
@@ -1165,7 +1156,7 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 }
 
 .chatbox_dialog .ui-dialog-titlebar {
-  background: #432 url("/images//ui-widget-header.png") 100% 50% repeat-x;
+  background: #432 url("/images/ui-widget-header.png") 100% 50% repeat-x;
 } /* theme classes 6 */
 
 .ui-widget-content a {
@@ -1174,10 +1165,9 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 
 .govt_button {
   width: 60%;
-  margin: 6px;
   line-height: 110%;
   font-size: 115%;
-  margin-bottom:-5px;
+  margin: 6px 6px -5px;
 }
 
 /* Government Docs table showing content/unhappy citizens per empire size */
@@ -1301,7 +1291,7 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 
 .context-menu-item {
   font-size: 120%;
-  padding: 0px 5px 1px;
+  padding: 0 5px 1px;
   color: #c7bfbc;
   background: none;
   text-shadow: 2px 1px 2px #200;
@@ -1310,7 +1300,7 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 @media (max-width: 900px) {
   .context-menu-item {
     font-size: 140%;
-    padding: 0px 5px 1px;
+    padding: 0 5px 1px;
     color: #c7bfbc;
     background: none;
     text-shadow: 2px 1px 2px #200;
@@ -1332,14 +1322,14 @@ body:not(.mobile) .ui-dialog.unit_dialog {
     left: 0.25em; 
     right: 0.25em; 
     bottom: 0.25em; 
-    padding: 0em 0.2em 0.2em; 
+    padding: 0 0.2em 0.2em;
 } 
 #city_tabs .ui-tabs-nav li { 
     border-top: none; 
     border-bottom: 1px solid rgb(51, 51, 51); 
-    -moz-border-radius: 0px 0px 4px 4px; 
-    -webkit-border-radius: 0px 0px 4px 4px; 
-    border-radius: 0px 0px 4px 4px; 
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
 } 
 #city_tabs .ui-tabs-nav li.ui-tabs-selected, 
 #city_tabs .ui-tabs-nav li.ui-state-active { 
@@ -1425,13 +1415,11 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 }
 
 .cities_row {
-  cursor:pointer; 
   cursor:hand;
 }
 
 .cities_row td {
-    padding-left: 20px;
-    padding-left: 0px;        /* added by Lexxie to experiment */ 
+    padding-left: 0;        /* added by Lexxie to experiment */
 }
 
 /* Empire -> all tabs -> cities_row of images:
@@ -1471,7 +1459,7 @@ body:not(.mobile) .ui-dialog.unit_dialog {
 
 .inteldlg_tabs {
   background: url("/images/bg-dark.jpg") repeat scroll 0 0 ;
-  margin: 0.5em 0em;
+  margin: 0.5em 0;
   color: #dbd5d0;
 }
 
@@ -1558,7 +1546,7 @@ li.tech-them10 { /* they have the tech and we have blueprints */
 /* themx1: impossible to possess and also have blueprints */
 li.tech-neither01 { /* no one has the tech but they have blueprints */
   color: #a7c4d1;
-  font-style: bold;
+  font-style: italic;
   cursor: alias;
 }
 li.tech-neither10 { /* no one has the tech but we have blueprints */
@@ -1730,11 +1718,11 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
   vertical-align: top;
   white-space: pre-line;
   margin: -5px;
-  padding: 0px;
+  padding: 0;
   transform: scale(0.5);
   float:left;
   max-height: 24px;
-  border-width: 0px;
+  border-width: 0;
   border-style: none;
 }
 
@@ -1744,10 +1732,6 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
 }
 
 .rotateimg270 {
-  -webkit-transform:rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
@@ -1807,9 +1791,9 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
 /* city governor sliders */
 .cma_slider {
   margin-left:10px;
-  margin-bottom:0px;
+  margin-bottom:0;
   border: none !important;
-  background-image: url('/images/string.png') repeat-x scroll 0 0 !important;
+  background: url('/images/string.png') repeat-x scroll 0 0 !important;
   height: 12px;
 }
 .no_bg {
@@ -1823,12 +1807,6 @@ li.tech-both00::before { /*  we both have the tech and neither has blueprints */
   font-family: "Segoe UI", sans-serif;
   background: url('/images/bg.jpg');
   border: #432 !important;
-}
-
-/* this probably is doing nothing */
-.ui-dialog-content 
-.ui-widget-content {
-  color: var(--default_text_color);
 }
 
 /* Standard tool tips */
@@ -1853,12 +1831,12 @@ body div.ui-tooltip {
   font-family: Freeciv !important;
   background: url('/images/bg-med-dark.jpg') #000;
   border-color: #000;
-  box-shadow: "3px 3px 6px #000b" !important;
+  box-shadow: 3px 3px 6px #000b !important;
 }
 .ui-button:hover, button:hover {
   background: url('/images/bg-light.jpg') #000;
   color: #000 !important;
-  box-shadow: "4px 4px 7px #0008" !important;
+  box-shadow: 4px 4px 7px #0008 !important;
 
 }
 .ui-button.ui-button-icon-only:not(#turn_done_button) {
@@ -1880,7 +1858,7 @@ body div.ui-tooltip {
   text-align: center;
   color: var(--default_text_color) !important;
   border-color: #000 !important;
-  box-shadow: "3px 3px 6px #000b" !important;
+  box-shadow: 3px 3px 6px #000b !important;
   font-family: Freeciv !important;
   background: url('/images/bg-med-dark.jpg') #000 !important;
 }
@@ -1902,7 +1880,6 @@ body div.ui-tooltip {
 .ui-dialog-titlebar-restore {
   border: none !important;
   background: none !important;
-  background-image: none !important;
   height:16px;
   width: 16px;
 }
@@ -1971,7 +1948,7 @@ a:focus { outline: thin dotted; border:none;}
   border-radius: 5px 5px 0 0;
 }
 .citytab, .fcw_tab {
-  margin-left:0px;
+  margin-left:0;
   margin-right:1px !important;
 }
 
@@ -2019,7 +1996,6 @@ input[type="email" i], #email {
   border-color: #aaa;
 }
 #pregame_text_input {
-  background: #111 !important;
   background-color: #000 !important;
   border-color: #777 !important;
   color: rgb(60, 190, 255);
@@ -2029,7 +2005,7 @@ input[type="email" i], #email {
   text-shadow: 1px 1px #000;
 }
 #pick_nation_dialog {
-  color: var(--default-text-color);
+  color: var(--default_text_color);
 }
 
 .sweet-alert {
@@ -2038,11 +2014,9 @@ input[type="email" i], #email {
 
 .chatbox_dialog {
   background: rgba(0,0,0,0.75) !important;
-  background-color: rgba(0,0,0, 0.75) important!;
 }
 .mobile_chatbox_dialog {
   background: rgba(0,0,0,0.9) !important;
-  background-color: rgba(0,0,0, 0.9) important!;
 }
 
 #ui-dialog-title-game_chatbox_panel {
@@ -2051,8 +2025,7 @@ input[type="email" i], #email {
 }
 
 #game_chatbox_panel {
-  background: rgba(0,0,0,0.75) important!;
-  background-color: rgba(0,0,0, 0.75) important!;
+  background: rgba(0,0,0,0.75) !important;
   overflow: hidden;
 }
 
@@ -2062,15 +2035,15 @@ input[type="email" i], #email {
 
 /* prevent game message area from having thick unused 60px margin between it and its scrollbar */
 .mCSB_container {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .mCSB_inside>.mCSB_container {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .mCSB_scrollTools .mCSB_draggerContainer {
-  margin-left: 0px;
+  margin-left: 0;
   margin-right: -12px;
-  padding: 0px;
+  padding: 0;
 }
 .mCSB_dragger_bar {
   width: 6px !important;
@@ -2523,8 +2496,8 @@ input[type="email" i], #email {
   margin-bottom: -5px;
 }
 #city_tabs_panel > li {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   border-color: #000;
 }
 .happy_cause_help {
@@ -2568,9 +2541,6 @@ body {
 label {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
