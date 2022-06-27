@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cinzel;
+  src: url("/fonts/cinzel.variable.woff2") format("woff2"), url("/fonts/cinzel.variable.ttf") format("ttf");
+}
+
 :root {
   /* Chrome browser family: */
   color-scheme: dark;
@@ -61,7 +66,7 @@ button {
   padding: 0;
   margin-right: 0;
   color: var(--default_text_color);
-  font-family: Freeciv;
+  font-family: Cinzel, serif;
 }
 
 #freeciv_logo {
@@ -704,7 +709,7 @@ input[type='number'] {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding-right: 150px;
   padding-top: 5px;
-  font-family: Freeciv;
+  font-family: Cinzel, serif;
 }
 
 .ui-dialog .ui-dialog-content {
@@ -1970,7 +1975,7 @@ body div.ui-tooltip {
 
 .ui-button, button {
   color: var(--default_text_color);
-  font-family: Freeciv !important;
+  font-family: Cinzel, serif !important;
   background: url('/images/bg-med-dark.jpg') #000;
   border-color: #000;
   box-shadow: 3px 3px 6px #000b !important;
@@ -2005,7 +2010,7 @@ body div.ui-tooltip {
   color: var(--default_text_color) !important;
   border-color: #000 !important;
   box-shadow: 3px 3px 6px #000b !important;
-  font-family: Freeciv !important;
+  font-family: Cinzel, serif !important;
   background: url('/images/bg-med-dark.jpg') #000 !important;
 }
 
@@ -2051,7 +2056,7 @@ body div.ui-tooltip {
 }
 
 .ui-tabs-anchor {
-  font-family: "Freeciv";
+  font-family: Cinzel, serif;
   background: url('/images/bg-med-dark.jpg');
   color: var(--default_text_color) !important;
   border-color: #000;
@@ -2734,26 +2739,6 @@ input[type="email" i], #email {
   height: 23px !important;
   width: 23px !important;
   background-image: url('/images/slider_prod.png'); /* default grey */
-}
-
-@font-face {
-  font-family: Freeciv;
-  src: url('/fonts/freeciv.ttf');
-}
-
-@font-face {
-  font-family: FreecivSB;
-  src: url('/fonts/freeciv.m.ttf');
-}
-
-@font-face {
-  font-family: FreecivBold;
-  src: url('/fonts/freeciv.b.ttf');
-}
-
-@font-face {
-  font-family: FreecivBlack;
-  src: url('/fonts/freeciv.bl.ttf');
 }
 
 body {

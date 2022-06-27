@@ -8,6 +8,11 @@
   <script src="/javascript/libs/Detector.js"></script>
   <script src="/static/javascript/index.min.js"></script>
   <style>
+    @font-face {
+      font-family: Cinzel;
+      src: url("/fonts/cinzel.variable.woff2") format("woff2"), url("/fonts/cinzel.variable.ttf") format("ttf");
+    }
+
     /* Make sure that the development tools used in freeciv are not to big */
     img.small {
       max-height: 40px;
@@ -61,7 +66,7 @@
 
     #game-launcher .header {
       color: #9d8e5a;
-      font-family: 'Freeciv', 'Tahoma', 'Arial';
+      font-family: Cinzel, 'Tahoma', 'Arial', serif;
       padding: 15px;
       margin-bottom: 0;
       background-image: url('/images/bg-odin.jpg');
@@ -190,7 +195,7 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Freeciv', 'Segoe UI';
+      font-family: Cinzel, 'Segoe UI', serif;
       text-shadow: 1px 1px #222;
     }
 
@@ -205,27 +210,6 @@
     .name {
       text-shadow: 2px 1px rgb(0, 0, 0) !important;
     }
-
-    @font-face {
-      font-family: Freeciv;
-      src: url('/fonts/freeciv.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivSB;
-      src: url('/fonts/freeciv.m.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivBold;
-      src: url('/fonts/freeciv.b.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivBlack;
-      src: url('/fonts/freeciv.bl.ttf');
-    }
-
   </style>
 </head>
 <body>

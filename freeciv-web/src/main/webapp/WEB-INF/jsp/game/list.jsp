@@ -76,6 +76,11 @@
   </script>
 
   <style>
+    @font-face {
+      font-family: Cinzel;
+      src: url("/fonts/cinzel.variable.woff2") format("woff2"), url("/fonts/cinzel.variable.ttf") format("ttf");
+    }
+
     .input-group .form-control:first-child {
       background: #000;
       color: #ccc;
@@ -195,7 +200,7 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Freeciv', 'Segoe UI';
+      font-family: Cinzel, 'Segoe UI', serif;
       text-shadow: 1px 1px #222;
     }
 
@@ -205,26 +210,6 @@
 
     .info_button {
       background-color: #b56f4a;
-    }
-
-    @font-face {
-      font-family: Freeciv;
-      src: url('/fonts/freeciv.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivSB;
-      src: url('/fonts/freeciv.m.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivBold;
-      src: url('/fonts/freeciv.b.ttf');
-    }
-
-    @font-face {
-      font-family: FreecivBlack;
-      src: url('/fonts/freeciv.bl.ttf');
     }
   </style>
 

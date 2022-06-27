@@ -9,6 +9,11 @@
   <script src="/javascript/libs/raphael-min.js"></script>
   <script type="text/javascript" src="/javascript/libs/morris.min.js"></script>
   <style>
+    @font-face {
+      font-family: Cinzel;
+      src: url("/fonts/cinzel.variable.woff2") format("woff2"), url("/fonts/cinzel.variable.ttf") format("ttf");
+    }
+
     .table th {
       text-align: center;
     }
@@ -49,18 +54,13 @@
     }
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Freeciv', 'Segoe UI';
+      font-family: Cinzel, 'Segoe UI', serif;
       text-shadow: 1px 1px #222;
     }
 
     body {
       color: #ccc;
       background-image: url('/images/bg-dark.jpg');
-    }
-
-    @font-face {
-      font-family: Freeciv;
-      src: url('/fonts/freeciv.ttf');
     }
   </style>
   <script>

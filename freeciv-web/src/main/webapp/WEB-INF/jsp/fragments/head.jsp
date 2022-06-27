@@ -51,6 +51,11 @@
     The following styles apply to the whole frontend HTML.
 
    */
+  @font-face {
+    font-family: Cinzel;
+    src: url("/fonts/cinzel.variable.woff2") format("woff2"), url("/fonts/cinzel.variable.ttf") format("ttf");
+  }
+
   body {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -60,12 +65,11 @@
 
   h1, h2, h3, h4, h5, h6 {
     color: #a8a8a8;
-    font-family: 'Freeciv', 'Segoe UI';
+    font-family: Cinzel, 'Segoe UI', serif;
     text-shadow: 1px 1px #222;
   }
 
   h1, h2, h3 {
-    font-family: 'Freeciv', 'Segoe UI';
     border-bottom: 2px solid #a8a8a8;
   }
 
