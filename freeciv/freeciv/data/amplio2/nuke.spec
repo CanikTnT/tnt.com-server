@@ -6,7 +6,7 @@ options = "+Freeciv-spec-Devel-2019-Jul-03"
 [info]
 
 artists = "
-    Michael Johnson <justaguest>
+    Bobomax
 "
 
 [file]
