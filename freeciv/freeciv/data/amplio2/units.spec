@@ -17,6 +17,7 @@ options = "+Freeciv-spec-Devel-2019-Jul-03"
 ; Last but not least:  Lexxie 
 
 artists = "
+    All Stickciv Graphics are by Bobomax
     Alex Mor            [Alex]
     Allard H.S. Höfelt  [AHS]
     Bebro               [BB]
