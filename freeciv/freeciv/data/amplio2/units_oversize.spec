@@ -9,10 +9,7 @@ options = "+Freeciv-spec-Devel-2015-Mar-25"
 ;84 x 60 images give an extra 20 horizontal pixels and 12 vertical pixels for "oversize" images.
 
 artists = "
-    Fairline     [GB]
-    Lexxie9952   [Lexxie]
-    Captain Nemo [Nemo]
-    Tanelorn     [T]
+    Bobomax
 "
 
 [file]
@@ -27,20 +24,20 @@ dy = 60
 pixel_border = 1
 
 tiles = { "row", "column", "tag"
-  0,  0, "u.stealth_bomber_o"         ; GB, Lexxie
-  0,  1, "u.howitzer_o"               ; Nemo, Lexxie
-  0,  2, "u.ultra_heavy_bomber_o"     ; Lexxie
-  0,  3, "u.jet_bomber_o"             ; Lexxie
-  0,  4, "u.heavy_bomber_o"           ; GB, Lexxie
-  0,  5, "u.artillery_o"              ; Lexxie
-  0,  6, "u.awacs_o"                  ; Lexxie
-  0,  7, "u.spy_plane_o"              ; Lexxie
-  0,  8, "u.wagon"                    ; Lexxie
-  0,  9, "u.truck"                    ; Lexxie
-  1,  0, "u.zeppelin"                 ; Lexxie
-  1,  1, "u.founder_o"                ; Lexxie
-  1,  2, "u.phalanx_o"                ; Lexxie
-  1,  3, "u.pikemen_o"                ; Lexxie, Tanelorn
+  0,  0, "u.stealth_bomber_o"         ; Bobomax
+  0,  1, "u.howitzer_o"               ; Bobomax
+  0,  2, "u.ultra_heavy_bomber_o"     ; Bobomax
+  0,  3, "u.jet_bomber_o"             ; Bobomax
+  0,  4, "u.heavy_bomber_o"           ; Bobomax
+  0,  5, "u.artillery_o"              ; Bobomax
+  0,  6, "u.awacs_o"                  ; Bobomax
+  0,  7, "u.spy_plane_o"              ; Bobomax
+  0,  8, "u.wagon"                    ; Bobomax
+  0,  9, "u.truck"                    ; Bobomax
+  1,  0, "u.zeppelin"                 ; Bobomax
+  1,  1, "u.founder_o"                ; Bobomax
+  1,  2, "u.phalanx_o"                ; Bobomax
+  1,  3, "u.pikemen_o"                ; Bobomax
   1,  4, "u.ballista_o"               ; Lexxie
   1,  5, "u.siege_tower_o"            ; Lexxie
   1,  6, "u.patriarch_o"              ; Lexxie
